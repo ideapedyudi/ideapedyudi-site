@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Arve's Personal Site",
+    "description": "Websitenya bilal dah",
+    "technology": "ReactJS",
+    "image": "../projects/bilal-arve.webp",
+    "link": "https://bilal-arve.netlify.app/"
+  }
+]

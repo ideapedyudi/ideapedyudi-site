@@ -1,0 +1,100 @@
+{
+  "gearType": [
+    {
+      "gear": "Hardware / Computers",
+      "gearList": [
+        {
+          "item": "MSI GF63, i5-10500H (10 Core), 16GB of RAM, RTX 3060, 512GB SSD, 1TB HDD",
+          "desc": "Gen 10, I know it's old, but yeah that's fine.",
+          "type": [
+            "laptop",
+            "MSI"
+          ]
+        },
+        {
+          "item": "Rexus Earphone EZ3 Type C Connector with Mic",
+          "desc": "Multifunctional earphones for listening to music, playing games and receiving phone calls.",
+          "type": [
+            "Earphone",
+            "Rexus"
+          ]
+        },
+        {
+          "item": "Rexus Pro Gaming Wireless Gamepad GX100 - Black",
+          "desc": "Professional Game Console I Free Handle I Multiple Connection Devices.",
+          "type": [
+            "Gamepad",
+            "Rexus"
+          ]
+        },
+        {
+          "item": "Daxa Retro Premium Gaming Mousepad Mat Mouse Pad",
+          "desc": "The DAXA Retro Mousmat mousepad promises a more stylish appearance with perfect mouse movements.",
+          "type": [
+            "Mousepad",
+            "Daxa Rexus"
+          ]
+        },
+        {
+          "item": "Logitech B170 Mouse Wireless",
+          "desc": "Any hands, anywhere.",
+          "type": [
+            "Mouse",
+            "Logitech"
+          ]
+        }
+      ]
+    },
+    {
+      "gear": "Software",
+      "gearList": [
+        {
+          "item": "Visual Studio Code",
+          "desc": "Bruh everyone use this, it had a lot of extension and easy to customize.",
+          "type": [
+            "IDE"
+          ]
+        },
+        {
+          "item": "VIM (neovim)",
+          "desc": "A BLAZINGLY FAST text editor that i use when am on the terminal.",
+          "type": [
+            "editor"
+          ]
+        },
+        {
+          "item": "Tabby",
+          "desc": "A terminal for the modern age",
+          "type": [
+            "terminal"
+          ]
+        },
+        {
+          "item": "Hyper",
+          "desc": "There are a lot of terminals out there, this is the one I use.",
+          "type": [
+            "terminal"
+          ]
+        },
+        {
+          "item": "PowerToys",
+          "desc": "Windows window management sucks. Tools like Spectaccle and Moom make things way better. However, this tool is a bit more magically and really works nicely.",
+          "type": [
+            "window manager",
+            "productivity",
+            "wm"
+          ]
+        }
+      ]
+    },
+    {
+      "gear": "Hosting",
+      "gearList": [
+        {
+          "item": "Vercel",
+          "desc": "Formerly known as Now from Zeit. This is a very nice platform to directly deploy all my apps."
+        }
+      ]
+    }
+  ]
+}
