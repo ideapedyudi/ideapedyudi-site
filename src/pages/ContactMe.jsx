@@ -11,6 +11,8 @@ import { MdEmail } from "@react-icons/all-files/md/MdEmail";
 import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { CopyBlock, nord } from "react-code-blocks";
+import Config from '../config/env'
+const { REACT_APP_EMAIL_SERVICE, REACT_APP_EMAIL_JS_USER_ID, REACT_APP_EMAIL_TEMPLATE } = Config
 
 export default function ContactMe() {
   const d = new Date();
@@ -44,15 +46,15 @@ export default function ContactMe() {
 
     emailjs
       .send(
-        'service_hqycuh5',
-        'template_u0fvxhf',
+        REACT_APP_EMAIL_SERVICE,
+        REACT_APP_EMAIL_TEMPLATE,
         {
           from_name: formData.form_name,
           message: formData.message,
           email: formData.email,
           to_name: 'Muhammad Wahyudi'
         },
-        'ommk3uEU6LWAZL1m8'
+        REACT_APP_EMAIL_JS_USER_ID
       )
       .then(() => {
         setLoader(false);
