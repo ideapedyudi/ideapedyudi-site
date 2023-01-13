@@ -44,14 +44,15 @@ export default function ContactMe() {
 
     emailjs
       .send(
-        process.env.REACT_APP_EMAIL_SERVICE,
-        process.env.REACT_APP_EMAIL_TEMPLATE,
+        'service_hqycuh5',
+        'template_u0fvxhf',
         {
           from_name: formData.form_name,
           message: formData.message,
           email: formData.email,
+          to_name: 'Muhammad Wahyudi'
         },
-        process.env.REACT_APP_EMAIL_JS_USER_ID
+        'ommk3uEU6LWAZL1m8'
       )
       .then(() => {
         setLoader(false);
@@ -142,9 +143,8 @@ export default function ContactMe() {
                   >
                     <span>submit-message</span>
                     <div
-                      className={`flex gap-1 mb-1 ${
-                        loader ? "block" : "hidden"
-                      }`}
+                      className={`flex gap-1 mb-1 ${loader ? "block" : "hidden"
+                        }`}
                     >
                       <span className="w-[5px] h-[5px] rounded-full bg-white animate-bounce"></span>
                       <span className="w-[5px] h-[5px] rounded-full bg-white animate-bounce"></span>
@@ -221,47 +221,47 @@ function Contacts() {
         >
           <Popover.Panel className="p-4 w-full flex flex-col gap-1.5">
             <a
-              href="https://wa.me/6287885002327"
+              href="https://www.instagram.com/ideapedyudi"
               className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
               target="_blank"
               rel="noreferrer"
             >
               <FiInstagram />
-              <span>amachoker</span>
+              <span>Ideapedyudi</span>
             </a>
             <a
-              href="https://steamcommunity.com/id/wisnoob/"
+              href="https://steamcommunity.com/id/ideapedyudi/"
               className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
               target="_blank"
               rel="noreferrer"
             >
               <ImSteam />
-              <span>Wisnoob</span>
+              <span>Ideapedyudi</span>
             </a>
             <a
-              href="https://wa.me/6287885002327"
+              href="https://wa.me/6288226249068"
               className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
               target="_blank"
               rel="noreferrer"
             >
               <MdCall />
-              <span>+628788500232</span>
+              <span>+6288226249068</span>
             </a>
             <a
-              href="https://www.linkedin.com/in/wiscaksono/"
+              href="https://www.linkedin.com/in/msyudi/"
               className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
               target="_blank"
               rel="noreferrer"
             >
               <GrLinkedinOption />
-              <span>Wisnu Wicaksono</span>
+              <span>Muhammad Wahyudi</span>
             </a>
             <a
-              href="mailto:wiscaksono1@gmail.com"
+              href="mailto:ideapedyudi@gmail.com"
               className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
             >
               <MdEmail />
-              <span>wwicaksono96@gmail.com</span>
+              <span>ideapedyudi@gmail.com</span>
             </a>
           </Popover.Panel>
         </Transition>
@@ -303,13 +303,13 @@ function FindMeAlso() {
         >
           <Popover.Panel className="p-4 w-full flex flex-col gap-1">
             <a
-              href="https://twitch.tv/wisnoob"
+              href="https://github.com/ideapedyudi"
               className="text-[#607B96] hover:text-white inline-flex items-center gap-2.5 transition-colors"
               target="_blank"
               rel="noreferrer"
             >
               <HiExternalLink />
-              <span>Twitch</span>
+              <span>Github</span>
             </a>
           </Popover.Panel>
         </Transition>
