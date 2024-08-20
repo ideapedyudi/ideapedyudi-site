@@ -67,7 +67,7 @@ export default function Home() {
                     .typeString("full-stack.web(developer)_")
                     .pauseFor(1000)
                     .deleteAll()
-                    .typeString("android-developer_")
+                    .typeString("game-developer_")
                     .pauseFor(500)
                     .start();
                 }}
