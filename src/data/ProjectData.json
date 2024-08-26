@@ -12,5 +12,12 @@
     "technology": "ReactJS",
     "image": "../projects/dumbgram.svg",
     "link": null
+  },
+  {
+    "title": "Link shortener, Ideaped Shortened",
+    "description": "Here you have full control over your links. Easy, Shortened, Secure, Reliable and Statistics.",
+    "technology": "ReactJS",
+    "image": "../projects/ideapedshortened.svg",
+    "link": null
   }
 ]
