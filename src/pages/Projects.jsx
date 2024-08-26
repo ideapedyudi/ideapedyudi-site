@@ -208,26 +208,30 @@ const Card = ({ data }) => {
                     </Dialog.Title>
                     <p className="mb-2.5 text-white/80">{data.description}</p>
                     <div className="flex items-center justify-between">
-                      {data.technology.includes("Blender") ? (
-                        <a
-                          href={data.link}
-                          target="_blank"
-                          className="text-white/80"
-                          rel="noreferrer"
-                        >
-                          Download
-                        </a>
-                      ) : (
-                        <a
-                          href={data.link}
-                          target="_blank"
-                          className="text-white/80"
-                          rel="noreferrer"
-                        >
-                          Demo
-                        </a>
-                      )}
-
+                      {data.link &&
+                        <>
+                          {data.technology.includes("Blender") ? (
+                            <a
+                              href={data.link}
+                              target="_blank"
+                              className="text-white/80"
+                              rel="noreferrer"
+                            >
+                              Download
+                            </a>
+                          ) : (
+                            <a
+                              href={data.link}
+                              target="_blank"
+                              className="text-white/80"
+                              rel="noreferrer"
+                            >
+                              Demo
+                            </a>
+                          )}
+                        </>
+                      }
+                      <p></p>
                       <p className="text-white/80">
                         Tech Stack: {data.technology}
                       </p>

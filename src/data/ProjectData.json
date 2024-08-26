@@ -1,9 +1,16 @@
 [
   {
-    "title": "Arve's Personal Site",
-    "description": "Websitenya bilal dah",
+    "title": "Playing Music, DumbSound",
+    "description": "A Platform to Find top songs online, Subscribe for 1 Month Enjoy and feel the songs on dumbsound while doing your daily things.",
     "technology": "ReactJS",
-    "image": "../projects/bilal-arve.webp",
-    "link": "https://bilal-arve.netlify.app/"
+    "image": "../projects/dumbsound.svg",
+    "link": null
+  },
+  {
+    "title": "Social Media, Dumbgram",
+    "description": "Social media application where we can share photos and videos. and also like, comment, follow, message.",
+    "technology": "ReactJS",
+    "image": "../projects/dumbgram.svg",
+    "link": null
   }
 ]
