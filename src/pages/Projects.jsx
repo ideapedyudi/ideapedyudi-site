@@ -1,10 +1,10 @@
 import { Dialog, Transition } from "@headlessui/react";
-import { AiFillHtml5 } from "@react-icons/all-files/ai/AiFillHtml5";
 import { BsFiles } from "@react-icons/all-files/bs/BsFiles";
 import { GoTriangleDown } from "@react-icons/all-files/go/GoTriangleDown";
 import { GrReactjs } from "@react-icons/all-files/gr/GrReactjs";
-import { SiBlender } from "@react-icons/all-files/si/SiBlender";
 import { SiNextDotJs } from "@react-icons/all-files/si/SiNextDotJs";
+import { SiNpm } from "@react-icons/all-files/si/SiNpm";
+
 import { motion } from "framer-motion";
 import { Fragment, useState } from "react";
 import datas from "../data/ProjectData.json";
@@ -76,6 +76,16 @@ export default function Projects() {
                 <span>NextJS</span>
               </button>
             </div>
+            <div className="flex items-center gap-6">
+              <button
+                className={`flex items-center gap-2.5 cursor-pointer transition-colors hover:text-white w-full ${filter === "NextJS" ? "text-white" : "text-[#607B96]"
+                  }`}
+                onClick={() => setFilter("NPM")}
+              >
+                <SiNpm />
+                <span>NPM</span>
+              </button>
+            </div>
           </Transition>
         </div>
         <div className="lg:col-span-10 md:col-span-9 col-span-full flex items-start justify-center lg:p-16 md:p-8 p-4 overflow-y-auto scrollbar-none">
@@ -108,17 +118,14 @@ const Card = ({ data }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   function generateIcon(value) {
-    if (value.includes("NextJS")) {
-      return <SiNextDotJs />;
-    }
-    if (value.includes("Blender")) {
-      return <SiBlender />;
-    }
     if (value.includes("ReactJS")) {
       return <GrReactjs />;
     }
-    if (value.includes("HTML")) {
-      return <AiFillHtml5 />;
+    if (value.includes("NextJS")) {
+      return <SiNextDotJs />;
+    }
+    if (value.includes("NPM")) {
+      return <SiNpm />;
     }
   }
 

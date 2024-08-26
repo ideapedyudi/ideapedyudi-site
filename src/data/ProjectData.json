@@ -19,5 +19,12 @@
     "technology": "ReactJS",
     "image": "../projects/ideapedshortened.svg",
     "link": null
+  },
+  {
+    "title": "Ideaped-array-sum",
+    "description": "Calculates the total sum of a specified key across an array of objects.",
+    "technology": "NPM",
+    "image": "../projects/ideaped-array-sum.svg",
+    "link": "https://www.npmjs.com/package/ideaped-array-sum?activeTab=readme"
   }
 ]
